@@ -26,8 +26,8 @@ namespace Boilerplate.Web.App.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                 optionsBuilder.UseSqlServer("Server=tcp:onboardingtaskdbserver.database.windows.net,1433;Initial Catalog=DB_onboarding;Persist Security Info=False;User ID=rodrigo;Password=R623302r;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-                //optionsBuilder.UseSqlServer("Server=tcp:talentdbserver.database.windows.net,1433;Initial Catalog=obdatabase;Persist Security Info=False;User ID=clovisa;Password=talentOnboard#$;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                 optionsBuilder.UseSqlServer("Server=tcp:onboardingtaskdbserver.database.windows.net,1433;Initial Catalog=DB_onboarding;Persist Security Info=False;User ID=rodrigo;Password=deleted;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+               
             }
         }
 
